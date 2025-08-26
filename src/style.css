@@ -1,45 +1,52 @@
 
 
 body{
-    background:rgb(0, 128, 0);
+    background:#008000;
+    height: 300px;
+    width:100%;
+    padding: 0% 0%;
+    display: block;
+    justify-items: center;
 }
+
 .card{
-    position: relative;
+   
+    height: 400px;
+    width: 300px;
     background-color: white;
-    padding: 50% 5% 30% 5%;
-    margin: 5% 20% 10% 20%;
-    height: 80%;
     border: solid 2px black;
+    border-radius: 5%;
+  
 }
+
 #topSuit{
     position: absolute;
-    top: 10%;
-    left: 10%;
-    font-size: 700%;
-    transform: translate(-10%,-10%);
+    padding: 20px;
+    text-align: start;
+    font-size: 500%;
+ 
    
 }
+
 #cardNumber{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 1000%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 500%;
+    padding-top: 50%;
+  
 }
 #bottomSuit{
-    position: absolute;
-    top:70%;
-    left: 75%;
-    font-size: 700%;
-    transform: translate(-75%, -75%);
-    
+    text-align: end;
+    font-size: 500%;
+    padding-right: 20px;
+    padding-bottom: 60px;
     transform: scaleY(-1);
 }
 #myButton{
-    position: absolute;
-    top:95%;
-    left: 20%;
+  
+    display: flex;
+    justify-content: center;
     font-size: 150%;
-    padding: 1%;
     border: solid 1px black;
+    background-color: blue;
+    
 }
